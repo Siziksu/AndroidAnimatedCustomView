@@ -2,6 +2,10 @@
 
 Example of a Custom View animated with ValueAnimator. It's an infinite animation, that when the screen is touched, it stops after the current cycle.
 
+## Screenshots
+
+<img src="art/demo.gif" width="350"/>
+
 ## License
 
     Copyright 2017 Esteban Latre

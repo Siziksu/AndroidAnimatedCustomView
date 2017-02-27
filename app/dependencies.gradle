@@ -1,0 +1,54 @@
+ext {
+    // Versions
+    android_support_version             = '25.1.0'
+    android_support_v4_version          = android_support_version
+    android_support_annotations_version = android_support_version
+    android_appcompat_v7_version        = android_support_version
+    android_design_version              = android_support_version
+    android_recyclerview_v7_version     = android_support_version
+    android_cardview_v7_version         = android_support_version
+    retrofit2_version                   = '2.1.0'
+    okhttp_version                      = '3.5.0'
+    okhttp_loggin_interceptor_version   = '3.5.0'
+    rxandroid_version                   = '2.0.1'
+    rxjava_version                      = '2.0.1'
+    junit_version                       = '4.12'
+    picasso_version                     = '2.5.2'
+    calligraphy_version                 = '2.2.0'
+    butterknife_version                 = '8.4.0'
+    retrofit2_rx_adapter_version        = '1.0.0'
+    dagger2_version                     = '2.8'
+    android_test_annotations_version    = '25.1.0'
+    android_test_compile_version        = '0.5'
+    play_services_visio_version         = '10.0.1'
+
+    // Dependencies
+    android_support_v4          = "com.android.support:support-v4:${android_support_v4_version}"
+    android_support_annotations = "com.android.support:support-annotations:${android_support_annotations_version}"
+    android_appcompat_v7        = "com.android.support:appcompat-v7:${android_appcompat_v7_version}"
+    android_design              = "com.android.support:design:${android_design_version}"
+    android_recyclerview_v7     = "com.android.support:recyclerview-v7:${android_recyclerview_v7_version}"
+    android_cardview_v7         = "com.android.support:cardview-v7:${android_cardview_v7_version}"
+    android_percent             = "com.android.support:percent:${android_cardview_v7_version}"
+    retrofit2                   = "com.squareup.retrofit2:retrofit:${retrofit2_version}"
+    retrofit2_converter_gson    = "com.squareup.retrofit2:converter-gson:${retrofit2_version}"
+    retrofit2_rx_adapter        = "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:${retrofit2_rx_adapter_version}"
+    okhhtp3                     = "com.squareup.okhttp3:okhttp:${okhttp_version}"
+    okhttp3_loggin_interceptor  = "com.squareup.okhttp3:logging-interceptor:${okhttp_loggin_interceptor_version}"
+    rxandroid                   = "io.reactivex.rxjava2:rxandroid:${rxandroid_version}"
+    rxjava                      = "io.reactivex.rxjava2:rxjava:${rxjava_version}"
+    picasso                     = "com.squareup.picasso:picasso:${picasso_version}"
+    calligraphy                 = "uk.co.chrisjenx:calligraphy:${calligraphy_version}"
+    butterknife                 = "com.jakewharton:butterknife:${butterknife_version}"
+    butterknife_compiler        = "com.jakewharton:butterknife-compiler:${butterknife_version}"
+
+    play_services_visio         = "com.google.android.gms:play-services-vision:${play_services_visio_version}"
+
+    dagger2                     = "com.google.dagger:dagger:${dagger2_version}"
+    dagger2_compiler            = "com.google.dagger:dagger-compiler:${dagger2_version}"
+
+    junit                       = "junit:junit:${junit_version}"
+    android_test_annotations    = "com.android.support:support-annotations:${android_test_annotations_version}"
+    android_test_runner         = "com.android.support.test:runner:${android_test_compile_version}"
+    android_test_rules          = "com.android.support.test:rules:${android_test_compile_version}"
+}

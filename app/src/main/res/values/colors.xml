@@ -14,4 +14,8 @@
     <color name="blue">#0000FF</color>
     <color name="navy">#354361</color>
     <color name="black">#000000</color>
+    <color name="primaryCircle">#FFFFFF</color>
+    <color name="secondaryCircle">#503282</color>
+    <color name="primaryText">#503282</color>
+    <color name="secondaryText">#FFFFFF</color>
 </resources>

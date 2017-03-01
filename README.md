@@ -1,6 +1,6 @@
 # Animated Custom View
 
-Example of a Custom View animated with ValueAnimator. It's an infinite animation, that when the screen is touched, it stops after the current cycle.
+Example of a Custom View animated with ValueAnimator. It's an infinite animation, that when the screen is touched emulates the receive of the points achieved, stopping after the current cycle and starting an animation that shows the points earned.
 
 ## Screenshots
 

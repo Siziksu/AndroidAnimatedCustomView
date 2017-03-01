@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CircleView">
-        <attr name="circleWidth" format="dimension" />
-        <attr name="circleColor" format="color" />
+    <declare-styleable name="CustomView">
+        <attr name="progressWidth" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="progressDuration" format="integer" />
+        <attr name="circlePercentSeparation" format="integer" />
+        <attr name="scaleValue" format="float" />
+        <attr name="scaleDuration" format="integer" />
+        <attr name="primaryColor" format="color" />
+        <attr name="secondaryColor" format="color" />
+        <attr name="primaryTextColor" format="color" />
+        <attr name="secondaryTextColor" format="color" />
     </declare-styleable>
 </resources>

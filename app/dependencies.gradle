@@ -20,6 +20,7 @@ ext {
     dagger2_version                     = '2.8'
     android_test_annotations_version    = '25.1.0'
     android_test_compile_version        = '0.5'
+    hockeyapp_version                   = '4.1.1'
     play_services_visio_version         = '10.0.1'
 
     // Dependencies
@@ -41,7 +42,6 @@ ext {
     calligraphy                 = "uk.co.chrisjenx:calligraphy:${calligraphy_version}"
     butterknife                 = "com.jakewharton:butterknife:${butterknife_version}"
     butterknife_compiler        = "com.jakewharton:butterknife-compiler:${butterknife_version}"
-
     play_services_visio         = "com.google.android.gms:play-services-vision:${play_services_visio_version}"
 
     dagger2                     = "com.google.dagger:dagger:${dagger2_version}"
@@ -51,4 +51,6 @@ ext {
     android_test_annotations    = "com.android.support:support-annotations:${android_test_annotations_version}"
     android_test_runner         = "com.android.support.test:runner:${android_test_compile_version}"
     android_test_rules          = "com.android.support.test:rules:${android_test_compile_version}"
+
+    hockeyapp                   = "net.hockeyapp.android:HockeySDK:${hockeyapp_version}"
 }

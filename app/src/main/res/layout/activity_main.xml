@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              xmlns:custom="http://schemas.android.com/apk/res-auto"
-              android:background="@color/black"
-              android:orientation="vertical">
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:clipChildren="false">
 
-    <com.siziksu.acv.CircleView
-        android:id="@+id/circle_view"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_gradient"
         android:layout_centerInParent="true"
-        custom:circleWidth="10dp"
-        custom:circleColor="@color/white" />
+        android:clipChildren="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_aspectRatio="100%"
+            app:layout_widthPercent="100%"
+            android:clipChildren="false">
+
+            <com.siziksu.acv.CustomView
+                android:id="@+id/custom_view"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerInParent="true"
+                android:padding="0dp"
+                app:progressDuration="1800"
+                app:progressWidth="10dp"
+                app:progressColor="@color/white"
+                app:circlePercentSeparation="90"
+                app:scaleValue="1.25"
+                app:scaleDuration="200"
+                app:primaryColor="@color/primaryCircle"
+                app:secondaryColor="@color/secondaryCircle"
+                app:primaryTextColor="@color/primaryText"
+                app:secondaryTextColor="@color/secondaryText" />
+        </RelativeLayout>
+    </android.support.percent.PercentRelativeLayout>
 </RelativeLayout>

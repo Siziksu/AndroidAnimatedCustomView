@@ -31,6 +31,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile android_appcompat_v7
     compile android_design
+    compile android_percent
     compile butterknife
     annotationProcessor butterknife_compiler
 }

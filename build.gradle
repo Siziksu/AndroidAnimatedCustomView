@@ -1,16 +1,18 @@
 buildscript {
+    ext.gradlePluginVersion = '3.5.2'
+
     repositories {
+        google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
-        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
-        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+        classpath "com.android.tools.build:gradle:$gradlePluginVersion"
     }
 }
 
 allprojects {
     repositories {
+        google()
         jcenter()
     }
 }
